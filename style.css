@@ -1,0 +1,104 @@
+
+.navegacion{
+    display: flex; /*alinea/ordena el contenido*/
+    height: 200px; /*define alutra*/
+    background-color: aqua; /*define el color*/
+    justify-content: space-between; /*espacio entre elementos (logo y enlaces)*/
+}
+
+.navegacion_logo{
+    height: 190px; /*define altura*/
+    align-self: center; /*alinea el contenido en el centro verticalmente*/
+    margin-left: 10px; /*agrega margen a la izquierda*/
+}
+
+.navegacion-link{
+    display: flex; /*alinea/ordena el contenido*/
+    align-items: flex-end; /*alinea el contenido por debajo*/
+    
+}
+
+.navegacion-link li{
+    list-style: none; /*separa los enlaces*/
+    margin-left: 20px; /*agrega margen a la izquierda*/
+    margin-right: 10px; /*agrega margen a la derecha*/
+}
+
+.navegacion-link li a {
+    text-decoration: none; /*saca todo tipo de decoracion (subrayado)*/
+    color: black; /*define color de letras (negro)*/
+    font-size: 20px; /*tamaño de las letras*/
+}
+
+.recursos{
+    display: flex; /*se convierte en flexbox*/
+    /*flex-wrap: wrap-reverse; /*adapta al tamaño de la pagina en pantalla, en caso que se achique lo coloca abajo*/
+}
+
+.recursos-articulo{
+    background-color: cadetblue; /*define el color del fondo de section*/
+    flex-grow: 3; /*divide el espacio sobrante en la cantidad de items que tenga*/
+}
+
+.recursos-adicionales{
+    background-color: orange; /*define el color del fondo de aside*/
+    width: 300px; /*define el ancho fijo*/
+    flex-grow: 1; /*divide el espacio sobrante en la cantidad de items que tenga*/
+}
+
+.recursos-titulo{
+    display: flex; /*flexibilixa el contenido*/
+    text-decoration: underline; /*decora los titulos agregandole subrayado*/
+    justify-content: center; /*ubica los titulos en el centro horizontalmente*/
+    font-size: 25px; /*define el tamaño de las letras*/
+}
+
+.recursos-parrafo{
+    padding: 20px; /*agrega separacion respecto a su contenedor hacia adentro*/
+}
+
+.recursos-parrafo--izq{
+    text-align: left; /*alinea el texto a la izquieda*/
+}
+
+.recursos-parrafo--centro{
+    text-align: center; /*alinea el texto en el centro*/
+}
+
+.recursos-parrafo--der{
+    text-align: right; /*alinea el texto a la derecha*/
+}
+
+.integrantes{
+    background-color: gray; /*define el color de fondo*/
+    text-align: center; /*alinea el texto en el centro*/
+}
+
+.integrantes__staff{
+    display: flex; /*flexibiliza el contenido*/
+    justify-content: space-around; /*permite colocar la misma cantidad de espacio entre imagenes*/
+    flex-wrap: wrap; /*adapta al tamaño de la pagina en pantalla, en caso que se achique lo coloca abajo*/
+    margin-top: 50px; /*separa las imagenes del texto*/
+}
+
+.integrantes__staff--uno{
+    order: 5;
+}
+
+.integrantes__staff--dos{
+    order: 3;
+}
+
+.integrantes__staff--tres{
+    order: 4;
+}
+
+.integrantes__staff--cuatro{
+    order: 2;
+}
+
+.integrantes__staff--cinco{
+    order: 1;
+}
+
+
